@@ -1,0 +1,37 @@
+Date: November 15, 2024
+Entry #: 57
+
+Finally, it's coming together. The ransomware project—my magnum opus. I've codenamed it Erebus, after 
+the Greek primordial deity of darkness. It feels fitting, given what this tool is capable of.
+
+The payload is lean, efficient, and ruthless. File encryption is nearly instantaneous, thanks 
+to the hybrid model I implemented. Erebus locks the data behind a key, and there's no backdoor. Once 
+it's locked, even I couldn't unlock it without the key. No forgiveness, no mercy.
+
+Protection Measures
+To avoid any accidental leaks I've added a 4-digit PIN protection for the builds. No one can run or
+analyze the ransomware without the PIN. It feels like a trivial safeguard, but it's surprisingly effective. 
+A simple numerical barrier can deter even skilled reverse engineers long enough for me to deploy.
+
+The PIN system is randomized for each build, generated during compilation. If someone were to brute-force
+it, they'd still need to crack into the deeper layers of obfuscation and custom packers I've wrapped it in.
+It's not impenetrable, but it's good enough to give me a head start.
+
+Progress
+
+I've tested Erebus on sandboxed environments. It performs beautifully. Within seconds, all user documents,
+spreadsheets, photos—everything—turn into gibberish. The ransom note pops up immediately after.
+
+I'm debating whether to tweak the tone of the note. Should I go for polite professionalism or cold menace? 
+The latter feels more appropriate, but people pay faster when they feel like there's hope.
+
+Next Steps
+
+The ransomware is complete, but the delivery method needs work. Email phishing campaigns are outdated,
+even if they're still effective against a lot of targets. I'm looking into exploiting software vulnerabilities 
+for a more direct infection path. Droppers hidden in legitimate downloads, maybe?
+
+Also, I need to set up the BTC wallets. I'll use tumblers to launder the payments, but I want a fallback plan
+if the blockchain analysis gets too hot. Maybe Monero.
+
+I'll write again tomorrow once I finalize the delivery vector. Erebus is ready to step out of the shadows.
